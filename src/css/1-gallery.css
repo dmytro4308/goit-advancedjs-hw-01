@@ -1,0 +1,36 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1128px;
+}
+
+.js-gallery-item {
+    flex-basis: calc(33.333% - 20px);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    
+}
+
+.js-gallery-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    
+}
+
+.js-gallery-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+
+}
+
+.js-gallery-item:hover .js-gallery-image {
+    transform: scale(1.05);
+}

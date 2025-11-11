@@ -1,0 +1,63 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #2e2f42;
+}
+
+.feedback-form {
+  padding: 24px;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.form-label:first-of-type {
+  margin-bottom: 24px;
+}
+
+.form-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 8px;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+.form-input[name='message'] {
+  height: 80px;
+  resize: none;
+}
+
+.form-button {
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-top: 16px;
+  max-width: 95px;
+  max-height: 40px;
+}
+
+.form-button:hover {
+  background-color: #6c8cff;
+}
